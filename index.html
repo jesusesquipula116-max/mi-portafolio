@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Juan | Estudiante de Programación</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+
+  <div class="logo">&lt;Juan/&gt;</div>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#sobre-mi">Sobre mí</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#proyectos">Proyectos</a>
+  </nav>
+
+</header>
+
+<main>
+
+  <!-- INICIO -->
+  <section id="inicio" class="hero" style="display: flex; flex-direction: column; gap: 40px;">
+
+    <!-- BLOQUE SUPERIOR: FOTO A LA IZQUIERDA Y TEXTO A LA DERECHA -->
+    <div class="hero-presentation" style="display: flex; align-items: center; gap: 30px;">
+      
+      <!-- FOTO A LA IZQUIERDA -->
+      <img src="Foto.jpeg" alt="Foto de Juan" class="mi-foto" style="width: 200px; height: 200px; object-fit: cover; object-position: top; border-radius: 12px; flex-shrink: 0;">
+
+      <!-- TEXTO "HOLA, SOY JUAN" A LA DERECHA -->
+      <div class="hero-text" style="flex: 1;">
+        <h1>Hola, soy <span>Juan</span>Gil</h1>
+
+        <h2>Estudiante de programación</h2>
+
+        <p class="description">
+          Estoy aprendiendo programación y desarrollo web. Me gusta practicar,
+          crear proyectos y mejorar mis conocimientos de tecnología. 
+        </p>
+
+        <a class="button" href="#proyectos">Ver proyectos</a>
+      </div>
+
+    </div>
+
+    <!-- BLOQUE INFERIOR: TARJETA DE CÓDIGO ABAJO -->
+    <div class="code-card" style="width: 100%; max-width: 500px; margin: 0 auto;">
+
+      <div class="dots">
+        <i></i>
+        <i></i>
+        <i></i>
+      </div>
+
+      <pre><code><span>const</span> estudiante = {
+  nombre: <b>"Juan"</b>,
+  carrera: <b>"Informática"</b>,
+  aprendiendo: <b>true</b>
+};
+
+<span>function</span> aprender() {
+  <b>return</b> "Seguir practicando";
+}</code></pre>
+
+    </div>
+
+  </section>
+
+
+  <!-- SOBRE MÍ -->
+  <section id="sobre-mi">
+
+    <p class="section-label">01 — SOBRE MÍ</p>
+
+    <h2>
+      Aprendiendo programación<br>
+      <span>paso a paso.</span>
+    </h2>
+
+    <p class="section-text">
+      Soy Juan, estudiante de programación. Actualmente estoy desarrollando
+      mis conocimientos en programación, páginas web, bases de datos y
+      herramientas de desarrollo.
+    </p>
+
+  </section>
+
+
+  <!-- HABILIDADES -->
+  <section id="habilidades">
+
+    <p class="section-label">02 — HABILIDADES</p>
+
+    <h2>Lo que estoy aprendiendo</h2>
+
+    <div class="cards">
+
+      <article>
+        <div class="icon">&lt;/&gt;</div>
+        <h3>HTML</h3>
+        <p>Creación y organización de páginas web.</p>
+      </article>
+
+      <article>
+        <div class="icon">#</div>
+        <h3>CSS</h3>
+        <p>Diseño, colores, tamaños y estilos para sitios web.</p>
+      </article>
+
+      <article>
+        <div class="icon">JS</div>
+        <h3>JavaScript</h3>
+        <p>Interactividad y funciones para páginas web.</p>
+      </article>
+
+      <article>
+        <div class="icon">DB</div>
+        <h3>Bases de datos</h3>
+        <p>Organización y manejo de información.</p>
+      </article>
+
+    </div>
+
+  </section>
+
+
+  <!-- PROYECTOS -->
+  <section id="proyectos">
+
+    <p class="section-label">03 — PROYECTOS</p>
+
+    <h2>Mis proyectos</h2>
+
+    <div class="projects">
+
+      <article>
+        <small>PROYECTO 01</small>
+
+        <h3>Página web personal</h3>
+
+        <p>
+          Mi primer sitio web creado con HTML y CSS.
+        </p>
+
+        <div class="tags">
+          <span>HTML</span>
+          <span>CSS</span>
+        </div>
+
+      </article>
+
+
+      <article>
+
+        <small>PROYECTO 02</small>
+
+        <h3>Proyecto de programación</h3>
+
+        <p>
+          Práctica para desarrollar la lógica de programación.
+        </p>
+
+        <div class="tags">
+          <span>Programación</span>
+        </div>
+
+      </article>
+
+
+      <article>
+
+        <small>PROYECTO 03</small>
+
+        <h3>Base de datos</h3>
+
+        <p>
+          Proyecto para practicar entidades, relaciones y tablas.
+        </p>
+
+        <div class="tags">
+          <span>BD</span>
+          <span>SQL</span>
+        </div>
+
+      </article>
+
+    </div>
+
+  </section>
+
+</main>
+
+
+<footer>
+
+  <p>&lt;Juan/&gt; — Estudiante de programación</p>
+
+  <p>HTML · CSS · JavaScript</p>
+
+</footer>
+
+</body>
+</html>
